@@ -1,0 +1,24 @@
+# AI & Orchestration
+crewai[tools]>=0.1.0
+langchain>=0.1.0
+langchain-openai
+# or langchain-anthropic if you prefer Claude
+
+# Data Fetching & Processing
+ccxt>=4.0.0
+pandas>=2.0.0
+# Easier install for technical analysis indicators
+# Note: If ta-lib-bin fails, remove it and install TA-Lib system dependencies manually later.
+
+# Social Scraping (Optional but recommended for the Degen)
+praw # Reddit API wrapper
+tweepy # Twitter API wrapper
+
+# Blockchain Integration
+web3>=6.0.0
+eth-account>=0.8.0
+# We will add safe-eth-py later when needed, it can be heavy.
+
+# Utilities & Frontend
+python-dotenv>=1.0.0
+discord.py>=2.0.0
