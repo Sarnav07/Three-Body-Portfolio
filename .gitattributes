@@ -1,0 +1,6 @@
+contracts/lib/* linguist-vendored
+contracts/out/* linguist-vendored
+contracts/cache/* linguist-vendored
+contracts/broadcast/* linguist-vendored
+venv/* linguist-vendored
+**/__pycache__/* linguist-vendored
