@@ -1,6 +1,9 @@
+# Ignore Solidity libraries and build artifacts from stats
 contracts/lib/* linguist-vendored
 contracts/out/* linguist-vendored
 contracts/cache/* linguist-vendored
 contracts/broadcast/* linguist-vendored
+
+# Ignore virtual environment and cache
 venv/* linguist-vendored
 **/__pycache__/* linguist-vendored
